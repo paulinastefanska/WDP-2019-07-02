@@ -29,7 +29,17 @@
     .buttons {
       display: flex;
       justify-content: space-between;
+      opacity: 0;
     }
+  }
+
+  &:hover .buttons {
+    opacity: 1;
+  }
+
+  &:hover .price div {
+    color: #ffffff !important;
+    background-color: $primary;
   }
 
   .content {
